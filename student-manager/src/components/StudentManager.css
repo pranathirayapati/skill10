@@ -1,0 +1,106 @@
+/* Full page styling */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #eef2f7, #d9e4f5);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main container */
+.container {
+  width: 650px;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+/* Heading */
+.container h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Form section */
+.form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+/* Inputs */
+input {
+  padding: 10px;
+  width: 150px;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  font-size: 14px;
+}
+
+/* Input focus */
+input:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+/* Buttons */
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #4a90e2;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Button hover */
+button:hover {
+  background: #357ab8;
+}
+
+/* Delete button */
+.delete {
+  background: #e74c3c;
+}
+
+.delete:hover {
+  background: #c0392b;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table header */
+th {
+  background: #4a90e2;
+  color: white;
+  padding: 10px;
+}
+
+/* Table data */
+td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Zebra rows */
+tr:nth-child(even) {
+  background: #f7f9fc;
+}
+
+/* Empty message */
+.empty {
+  margin-top: 15px;
+  color: #888;
+}
